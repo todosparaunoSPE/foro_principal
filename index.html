@@ -11,11 +11,24 @@
             margin: 0;
             padding: 0;
             display: flex;
-            justify-content: center;
-            align-items: center;
+        }
+        .sidebar {
+            background-color: #0072B1;
+            color: white;
+            padding: 20px;
+            width: 250px;
             height: 100vh;
+            text-align: center;
+            position: fixed;
+            left: 0;
+            top: 0;
+        }
+        .sidebar h2 {
+            font-size: 24px;
+            margin-top: 20px;
         }
         .container {
+            margin-left: 270px; /* Establece el margen para que el contenido se mueva hacia la derecha */
             background-color: #ffffff;
             padding: 30px;
             border-radius: 10px;
@@ -62,6 +75,13 @@
 </head>
 <body>
 
+<!-- Sidebar -->
+<div class="sidebar">
+    <h2>Javier Horacio Pérez Ricárdez</h2>
+    <p>Desarrollador y Consultor</p>
+</div>
+
+<!-- Main Content -->
 <div class="container">
     <h1>Bienvenido a Pensionissste 2025</h1>
     <p>En esta página encontrarás información importante sobre el sistema de pensiones en México y el sorteo de Pensionissste 2025. Haz clic en los siguientes botones para acceder a los detalles.</p>
